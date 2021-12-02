@@ -3,7 +3,7 @@ import "../styles/Expenses.css";
 
 function Expenses(props) {
   return (
-    <div className="App">
+    <div className="expenses">
       <ExpenseItem
         title={props.items[0].title}
         amount={props.items[0].amount}
